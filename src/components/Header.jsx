@@ -103,7 +103,7 @@ const Header = ({ order, setCart }) => {
                       </button>
                     </div>
                   </div>
-                  <button className="w-full p-3 bg-Orange text-vdBlue font-extrabold rounded-lg hover:bg-PaleOrange">
+                  <button className="w-full p-3 bg-orange-500 text-vdBlue font-extrabold rounded-lg hover:bg-orange-300">
                     Checkout
                   </button>
                 </div>
