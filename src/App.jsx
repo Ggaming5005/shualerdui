@@ -32,7 +32,7 @@ function App() {
                     alt={`image-product-${item}-thumbnail.jpg`}
                     className={`w-[85px] rounded-xl hover:opacity-45 cursor-pointer ${
                       currMainImg === item
-                        ? "opacity-60 border-4 border-Orange"
+                        ? "opacity-60 border-4 border-orange-500"
                         : ""
                     }`}
                     onClick={() => setCurrMainImg(item)}
