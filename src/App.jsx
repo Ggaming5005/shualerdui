@@ -132,7 +132,7 @@ function App() {
               <button
                 className="bg-orange-500 md:w-52 w-full mx-auto md:mx-0 py-3 flex items-center gap-3 bg-Orange hover:bg-PaleOrange justify-center rounded-lg text-vdBlue font-bold"
                 onClick={() =>
-                  shoeOrdCount > 0
+                  shoeOrdCount > 1
                     ? setCart({ price: 125, qty: shoeOrdCount })
                     : null
                 }
