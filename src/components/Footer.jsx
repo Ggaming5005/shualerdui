@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="attribution">
-        <div>reschool challeng</div>
+        <div>reschool shualeduri by gio adu</div>
       </div>
     </footer>
   );
