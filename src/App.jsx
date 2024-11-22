@@ -154,7 +154,7 @@ function App() {
               <button
                 className=" md:w-52 w-full mx-auto md:mx-0 py-3 flex items-center gap-3 bg-orange-500 hover:bg-orange-300 justify-center rounded-lg text-vdBlue font-bold"
                 onClick={() =>
-                  shoeOrdCount > 1
+                  shoeOrdCount > 0
                     ? setCart({ price: 125, qty: shoeOrdCount }) // თუ რაოდენობა > 0, კალათის განახლება
                     : null
                 }
